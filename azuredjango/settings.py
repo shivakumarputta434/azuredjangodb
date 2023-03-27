@@ -77,11 +77,14 @@ WSGI_APPLICATION = 'azuredjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangodb',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST':'localhost',
-        'PORT':3306,
+        'NAME': 'azuretestappdb',
+        'USER' : 'shivakumar123',
+        'PASSWORD' : 'Thiru$245',
+        'HOST' : 'azuretestappdb.mysql.database.azure.com',
+        'PORT' : 3306,
+        'OPTIONS': {
+            'ssl': {'ca': 'DigiCertGlobalRootCA.crt.pem'}
+        }
     }
 }
 
