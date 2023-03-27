@@ -81,10 +81,7 @@ DATABASES = {
         'USER' : 'shivakumar123',
         'PASSWORD' : 'Thiru$245',
         'HOST' : 'azuretestappdb.mysql.database.azure.com',
-        'PORT' : 3306,
-        'OPTIONS': {
-            "ssl-mode":"require"
-        }
+        'PORT' : 3306
     }
 }
 
