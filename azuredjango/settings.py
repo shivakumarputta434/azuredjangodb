@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'azuredjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'azuretestappdb',
+        'NAME': 'azuretestappdb.mysql.database.azure.com',
         'USER' : 'shivakumar123',
         'PASSWORD' : 'Thiru$245',
         'HOST' : 'azuretestappdb.mysql.database.azure.com',
