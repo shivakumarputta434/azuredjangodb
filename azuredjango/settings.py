@@ -83,7 +83,7 @@ DATABASES = {
         'HOST' : 'azuretestappdb.mysql.database.azure.com',
         'PORT' : 3306,
         'OPTIONS': {
-            'ssl': {'ca': 'DigiCertGlobalRootCA.crt.pem'}
+            "ssl-mode":"require"
         }
     }
 }
